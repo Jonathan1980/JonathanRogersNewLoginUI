@@ -1,0 +1,59 @@
+body {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(https://i.pinimg.com/originals/7c/9f/54/7c9f546821e6ce60ba274c302894b60c.jpg);
+	font-family: "Hind Siliguri", sans-serif;
+}
+
+.container {
+	border: solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+#login-box-wrapper {
+	justify-content: center;
+	align-items: center;
+	flex-direction: col;
+	border-radius: 15px;
+	margin-bottom: 225px;
+	margin-top: 225px;
+	padding: 20px;
+	height: 30vh;
+	width: 400px;
+	border-radius: 15px;
+	background-color: grey;
+	box-shadow: 17px 18px 19px 6px rgba(0, 0, 0, 0.74);
+	-webkit-box-shadow: 17px 18px 19px 6px rgba(0, 0, 0, 0.74);
+	-moz-box-shadow: 17px 18px 19px 6px rgba(0, 0, 0, 0.74);
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding: 9px;
+	width: 90%;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+}
+
+input {
+	background-color: white;
+	border: none;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 95%;
+}
+
+.login {
+	background-color: rgba 151, 152, 156, 0.932;
+}
+
+#spacey {
+	padding-top: 25px;
+}
